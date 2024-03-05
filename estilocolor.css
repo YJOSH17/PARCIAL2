@@ -79,6 +79,11 @@
      background: rgb(174,190,238);
  background: radial-gradient(circle, rgba(174,190,238,1) 0%, rgba(0,24,126,0.8158032134339049) 100%);
   }
+
+  #box12{
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(158,70,252,1) 100%);
+}
   
     #box13{
      
