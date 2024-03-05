@@ -1,0 +1,87 @@
+{
+    margin: 0;
+    padding: 0;
+    boxing:border-box;
+ }
+ 
+ div{
+    width: 350px;
+  height: 350px;
+ background: grey;
+ border: 20px solid white;
+ box-shadow: 0px 50px 20px black;
+ margin :300px;
+ padding: 50px;
+ } 
+  #box1{
+   
+ background: aquamarine;
+ 
+  }
+  
+   #box2{
+     
+ background: #0066FF;
+ 
+  }
+  
+    #box3{
+     
+ background: #CCCCCC;
+ 
+  }
+  
+     #box4{
+   
+ background: rgb(30, 140, 255);
+ 
+  }
+  
+     #box5{
+   
+ background: rgb(25%, 25%, 112%);
+ 
+  }
+  
+    
+  
+    #box6{
+     
+ background: rgba(0, 0, 255, 1);
+ 
+  }
+  
+    #box7{
+     
+ background: rgba(50%, 25%, 198%, 1);
+ 
+  }
+  
+ 
+  
+      #box8{
+     
+ background: rgb(51,57,90);
+ background: linear-gradient(90deg, rgba(51,57,90,1) 10%, rgba(0,32,255,1) 64%, rgba(1,1,155,1) 100%);
+  }
+  
+       #box9{
+     background: rgb(34,193,195);
+ background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(3,34,223,1) 100%);
+  }
+  
+       #box10{
+     background: rgb(94,168,233);
+ background: linear-gradient(90deg, rgba(94,168,233,1) 0%, rgba(38,64,195,0.8095238025371845) 50%, rgba(0,18,81,1) 98%);
+  }
+  
+        #box11{
+     background: rgb(174,190,238);
+ background: radial-gradient(circle, rgba(174,190,238,1) 0%, rgba(0,24,126,0.8158032134339049) 100%);
+  }
+  
+    #box13{
+     
+ background: hsl(192, 87%, 63%);
+ 
+  }

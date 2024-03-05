@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    boxing:border-box;
+ }
+ 
+ div{
+      width:200px;
+  height: 200px;
+ background: red;
+ border: 2px solid black;
+ margin :50px;
+ display: inline-block;
+ border-radius:10px 20px 0px 40px;
+ 
+   }
+   #diferene{
+      width:200px;
+  height: 200px;
+ background: skyblue;
+ border: 2px solid black;
+ margin :50px;
+ display: inline-block;
+ border-radius:40px 20px;
+   }
+   .blue{
+    background: white;
+ }
+ 
+ input[type=text]{
+   width:500px;
+  height: 20px;
+ background: lightblue;
+ border: 2px solid black;
+ }
+ img{
+    display: black;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 100%;
+ }
+ img:hover{
+    transition: 2s all ease;
+    transform: scale(1.2) rotate(360deg)
+ }
+ header>h1{
+    width:300px;
+  height: 50px;
+ background: lightblue;
+ border: 2px solid black;
+ }
+ button.classic#primary{
+    width:300px;
+  height: 50px;
+ background: lightblue;
+ 
+ }
+ 
+ h1,h2{
+    width:300px;
+  height: 30px;
+ background: cadetblue;
+ border: 2px solid black;
+ }

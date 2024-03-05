@@ -1,0 +1,45 @@
+@font-face {
+    font-family: CURSIVA;
+    src: url(FONT/Pacifico-Regular.ttf);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+transition: 1s all ease;
+}
+h1{
+    font-family: CURSIVA;
+    font-size: 60px;
+text-shadow: 0 0 10px magenta;
+}
+
+body{
+    text-align: center;
+    color: aliceblue;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(90,3,194,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px ridge whitesmoke;
+}
+a:hover{
+    box-shadow: 0 0 5px magenta;
+    border:1px solid black;
+    background: skyblue;
+    color: black;
+    transform: scale(1.2);
+
+}
+
+

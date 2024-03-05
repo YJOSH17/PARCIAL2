@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+boxing:border-box;
+}
+
+img{
+    display: black;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+    border-radius: 100%;
+ }
+ img:hover{
+    transition: 2s all ease;
+    transform: scale(1.2) rotate(360deg)
+ }
+ .blue{
+    background: white;
+ }
