@@ -1,8 +1,14 @@
-{
+*{
     margin: 0;
     padding: 0;
     boxing:border-box;
+    transition: 1s all ease;
+
  }
+
+ body{
+  text-align: center;
+}
  
  div{
     width: 350px;
@@ -10,7 +16,7 @@
  background: grey;
  border: 20px solid white;
  box-shadow: 0px 50px 20px black;
- margin :300px;
+ margin :100px;
  padding: 50px;
  } 
   #box1{
@@ -90,3 +96,51 @@ background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(158,70,252,1) 100
  background: hsl(192, 87%, 63%);
  
   }
+
+  #box14{
+     
+    background: hsl(229, 93%, 52%);
+    
+     }
+
+     #box15{
+     
+      background: hsla(240, 100%, 75%, 1)
+      
+       }
+
+       #box16{
+     
+        background: hsla(240, 100%, 50%, 1)
+        
+         }
+
+         #box17{
+          
+      background: black;
+      border: 20px solid blue;
+      box-shadow: 0px 0px 90px deepskyblue;
+    
+       }
+   
+
+  a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px ridge whitesmoke;
+ }
+ a:hover{
+    box-shadow: 0 0 5px magenta;
+    border:1px solid black;
+    background: skyblue;
+    color: black;
+    transform: scale(1.2);
+ 
+ }
