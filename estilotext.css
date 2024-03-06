@@ -1,0 +1,192 @@
+@font-face {
+    font-family: TEXTALMENDRA;
+    src: url(FONT/AlmendraSC-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    boxing:border-box;
+    transition: 1s all ease;
+transition: 2s all ease-in-out;
+ }
+
+ body{
+    text-align: center;
+    background: rgb(137, 222, 248);
+}
+
+ #color1{
+    color: blue;
+ }
+
+ #color1:hover{
+    transform: scale(1.1) translate(20);
+    letter-spacing: 2px;
+    background:linear-gradient(0deg,yellow 25%,red 50%, yellow 90%);
+    background-clip:text;
+    color: transparent;
+ }
+
+
+ #color2{
+    background: rgb(34,193,195);
+    background: linear-gradient(180deg, rgba(34,193,195,1) 0%, rgba(76,45,253,1) 100%);
+background-clip:text; 
+color: transparent;
+}
+
+#family1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#family2{
+    font-family:TEXTALMENDRA;
+}
+
+
+
+
+#tamaño1{
+    font-size: 20px;
+}
+
+#tamaño2{
+    font-size: 2em;
+}
+
+#tamaño3{
+    font-size: 30pt;
+}
+
+
+
+#style1{
+    font-style: normal;
+}
+
+#style2{
+    font-style: italic;
+}
+
+#style3{
+    font-style: oblique;
+}
+
+
+
+#weight1{
+    font-weight: bold;
+}
+
+#weight2{
+    font-weight: lighter;
+}
+
+#weight3{
+    font-weight: 100;
+}
+
+
+#trasform1{
+    text-transform: uppercase;
+}
+
+#trasform2{
+    text-transform: lowercase;
+}
+
+#trasform3{
+    text-transform: capitalize;
+}
+
+
+
+
+#decoracion1{
+    text-decoration:underline ;
+}
+
+#decoracion2{
+    text-decoration:overline ;
+}
+
+#decoracion3{
+    text-decoration:line-through ;
+}
+
+
+#SOMBRA1{
+    text-shadow: 0 0 5px blue;
+}
+
+#SOMBRA2{
+    text-shadow: -5px -5px 0px purple;
+}
+
+#SOMBRA3{
+    text-shadow: 1px 5px 10px whitesmoke;
+}
+
+
+#text1{
+text-align: left;
+line-height: 1.0;
+}
+
+
+#text2{
+    text-align: right ;
+    line-height: 2.0;
+}
+
+#text3{
+    text-align: center ;
+    line-height: 3.0;
+}
+
+#text3{
+    text-align: justify ;
+    line-height: 4.0;
+}
+
+
+
+#SEPA1{
+letter-spacing: 10px;
+}
+
+
+#SEPA2{
+    letter-spacing: 20px;
+}
+
+
+#SEPA3{
+    word-spacing: 10px;
+}
+
+
+#SEPA4{
+    word-spacing: 20px;
+}
+ a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px ridge whitesmoke;
+ }
+ a:hover{
+    box-shadow: 0 0 5px magenta;
+    border:1px solid black;
+    background: skyblue;
+    color: black;
+    transform: scale(1.2);
+ 
+ }
