@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #293462;
+    margin: 200px;
+  }
+  div {
+    width: 200px;
+    height: 100px;
+    background: linear-gradient(to right, #FE5F55 150px, #A64942 150px);
+  }
+  #beige {
+    height: 200px;
+    background: #FFF1C1;
+  }
+  #right {
+    translate: 150px -250px;
+    rotate: 90deg;
+  }

@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 200px;
+    background: #62306D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+    border-radius: 0 0 50% 50%;
+    margin-top: 100px;
+  }
+  #mirror {
+    transform: scaleY(-1);
+    margin-top: -100px;
+  }

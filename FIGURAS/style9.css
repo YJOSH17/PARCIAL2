@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #173889;
+    display: grid;
+    align-content: end;
+    margin: 250px ;
+    gap: 6px;
+    grid-template: repeat(4, auto) / repeat(6, auto);
+    grid-auto-flow: column;
+  }
+  p {
+    width: 45px;
+    height: 45px;
+    background: #EE4F63;
+    margin: 0px;
+  }
+  #last {
+    grid-row-start: 3;
+  }
+  #a {
+    translate: 51px -51px;
+  }
+  #b {
+    translate: 51px -102px;
+  }
+  #c {
+    translate: 0px -102px;
+  }
+  [y] {
+    background: #F8DA37;
+  }
+  [t] {
+    background: #2CE1EA;
+  }
+  [p] {
+    background: #B069F7;
+  }

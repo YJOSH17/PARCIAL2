@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 300px;
+    background: #D25B70;
+    display: grid;
+    place-items: center;
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F7F3DA;
+    position: absolute;
+    translate: 0px 50px;
+  }
+  #green {
+    translate: -56px -42px;
+    rotate: 37deg;
+    scale: 0.6;
+    background: #6CB3A9;
+  }
+  #yellow {
+    translate: 42px -56px;
+    rotate: 37deg;
+    scale: 0.8;
+    background: #F6DF96;
+  }

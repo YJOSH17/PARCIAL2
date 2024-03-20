@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 150px;
+    background: #6592CF;
+  }
+  div, body {
+    display: grid;
+    place-content: center;
+  }
+  #outer {
+    width: 250px;
+    height: 250px;
+    background: #243D83;
+  }
+  #middle {
+    width: 150px;
+    height: 150px;
+    background: #6592CF;
+    rotate: 15deg;
+  }
+  #inner {
+    width: 75px;
+    height: 75px;
+    background: #243D83;
+    rotate: 15deg;
+  }

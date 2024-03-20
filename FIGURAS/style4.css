@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #62306D;
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+  }
+  div {
+    width: 100px;
+    height: 150px;
+    background: #F7EC7D;
+    border-radius: 50px 50px 0px 0px;
+  }
+  #middle {
+    height: 250px;
+  }
+  div:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100px;
+    background: #E38F66;
+    border-radius: 50%;
+    box-shadow: inset 0px 0px 0px 20px #AA445F;
+  }
+  #middle:before {
+    background: #AA445F;
+    box-shadow: inset 0px 0px 0px 20px #E38F66
+  }
