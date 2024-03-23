@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   transition: 2s all ease;
+}
+
+body{
+ background: black;
+    margin: 0;
+    display: grid;
+    place-items: center;
+}
+
+.orb{
+    animation: spin 2s linear infinite;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 140px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: 
+    inset 0 0 50px rgb(113, 113, 253),
+    inset 20px 0 60px rgb(98, 0, 255),
+    inset -20px 0 60px blue,
+    inset 20px 0 300px rgb(98, 0, 255),
+    inset -20px 0 300px blue,
+    0 0 50px rgb(175, 154, 250),
+    -10px 0 60px rgb(98, 0, 255),
+    10px 0 60px blue;
+}
+
+@keyframes spin {
+    0%{
+        top: 20px;
+    }
+    25%{
+        top: 22px;
+    }
+    50%{
+        top: 30px;
+    }
+    75%{
+        top: 27px;
+    }
+    100%{
+        transform: rotate(360deg);
+        top: 20px;
+    }
+}
+
+a{
+    font-size: 15px;
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px ridge whitesmoke;
+}
+a:hover{
+    box-shadow: 0 0 5px magenta;
+    border:1px solid black;
+    background: skyblue;
+    color: black;
+    transform: scale(1.2);
+
+}
