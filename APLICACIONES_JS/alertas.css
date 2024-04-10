@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s all ease;
+ }
+
+body{
+    text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+ 
+h1{
+    text-align: center;
+}

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="slider_caja.css">
+   <title>SLIDER FIGURAS</title>
+</head>
+
+<body>
+   
+    <a href="index.html">MENU PRINCIPAL</a><br>
+
+
+ <big><h1>FIGURAS</h1></big><hr color="blue"><br>
+ 
+ <tr>
+<td> <h1>ANCHO</h1> </td>
+<td> <input type="range" min="10" max="300" value="10" id="ancho"> </td>
+<td> <div id="vancho">10</div></td>
+  </tr>
+  
+  <br>
+  
+   <tr>
+<td> <h1>ALTO</h1> </td>
+<td> <input type="range" min="10" max="300" value="10" id="alto"> </td>
+<td> <div id="valto">10</div></td>
+  </tr>
+ 
+ <br>
+ 
+   <tr>
+<td> <h1>COLOR</h1> </td>
+<td> <input type="color" id="colorf"> </td>
+  </tr>
+  
+  <br>
+  
+  <tr>
+<td> <h1>ANCHO DE BORDE</h1> </td>
+<td> <input type="range" min="1" max="10" value="1" id="anchoB"> </td>
+<td> <div id="VanchoB">1</div></td>
+  </tr>
+ 
+ <br>
+ 
+   <tr>
+<td> <h1>COLOR BORDE</h1> </td>
+<td> <input type="color" id="colorB"> </td>
+  </tr>
+  
+ <br>
+ 
+   <tr>
+<td> <h1>TIPO DE BORDE</h1> </td>
+<td> 
+<select id="tipoB">
+   <option value="solid">solid</option>
+   <option value="dashed ">dashed</option>
+   <option value="double">double</option>
+</select>
+</td>
+  </tr>
+ 
+ <div id="caja"> </div>
+ 
+ 
+ <script src="slider_caja.js"></script>
+</body>
+
+</html>

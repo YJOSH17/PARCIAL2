@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s all ease;
+ }
+ body{
+    color:white;
+    background-color: black;
+       font-family: Georgia ;
+ }
+ #res{
+ border-radius: 10px;
+    width: 135px;
+    height:100px ;
+    font-family: Georgia ;
+    margin-top: 20px;
+    font-size: 30px;
+ }
+ #fondo{
+    margin: auto;
+    border-radius: 10px;
+    border: 5px ridge;
+    width: 300px;
+    height:600px ;
+       background: rgb(7,26,255);
+ background: linear-gradient(0deg, rgba(7,26,255,1) 0%, rgba(0,0,0,1) 100%);
+ box-shadow: 0 0 40px deepskyblue;
+ }
+ h1{
+    text-align: center;
+ }
+ 
+ input[type=number]{
+    font-family: Georgia ;
+    color: black;
+    text-align: center;
+   width:235px;
+  height: 40px;
+ background: white;
+ border: 5px double black;
+ border-radius: 10px;
+ font-size: 10px;
+ 
+ }
+ input:focus{
+    box-shadow: 0 0 10px white;
+ }
+ p{
+    margin: 20px;
+    font-size: 30px;
+    font-family: Georgia ;
+ }
+ #sumar{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+ }
+ #sumar:hover{
+    
+ transform: scale(1.2);
+ }
+ 
+ #restar{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+ }
+ #restar:hover{
+    
+ transform: scale(1.2);
+ }
+ 
+ #multiplicar{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+ }
+ #multiplicar:hover{
+    
+ transform: scale(1.2);
+ }
+ 
+ #dividir{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+ }
+ #dividir:hover{
+    
+ transform: scale(1.2);
+ }
+ 
+ 
+ #porciento{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+ }
+ #porciento:hover{
+    
+ transform: scale(1.2);
+ }
+ 
+ 
+ #potenciar{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 60px;
+    height: 60px;
+ }
+ #potenciar:hover{
+    
+ transform: scale(1.2);
+ }
+ 
+ #eliminar{
+    font-size: 20px;
+    margin-top: 15px;
+    width: 235px;
+    height: 40px;
+ }
+ #eliminar:hover{
+    
+ transform: scale(1.2);
+ }
+
+
+
+a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px ridge whitesmoke;
+    font-size: 14px;
+}
+a:hover{
+    box-shadow: 0 0 5px magenta;
+    border:1px solid black;
+    background: skyblue;
+    color: black;
+    transform: scale(1.2);
+
+}
