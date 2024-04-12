@@ -43,7 +43,7 @@ Swal.fire({
 }
     document.querySelector("#btn6").onclick=()=>{
         Swal.fire({
-            title: "Custom width, padding, color, background.",
+            title: "ESTE MENSAJE PUEBA QUE EXISTE EL EJEMPLO 6 DE ALERTA",
             width: 600,
             padding: "3em",
             color: "#716add",
@@ -59,11 +59,11 @@ Swal.fire({
 
     document.querySelector("#btn7").onclick=()=>{
         Swal.fire({
-            title: "Sweet!",
+            title: "CECYLOVER",
             text: "Modal with a custom image.",
-            imageUrl: "https://unsplash.it/400/200",
+            imageUrl: "https://cdn-icons-png.flaticon.com/512/74/74962.png",
             imageWidth: 400,
-            imageHeight: 200,
+            imageHeight: 400,
             imageAlt: "Custom image"
           });
 
