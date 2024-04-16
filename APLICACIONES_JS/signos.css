@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s all ease;
+ }
+ body{
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background: url(SIGNOSimg/GX.jpg);
+    background-size: cover;
+    background-position: center;
+       font-family: Georgia ;
+ }
+
+#signo{
+    width: 300px;
+    height: 300px;
+    margin: auto; 
+    box-shadow: 0 0 50px white;
+    border-radius: 0%;
+}
+
+#dia{
+    background: navy;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 20px deepskyblue;
+}
+
+#vdia{
+    margin:auto;
+    width: 150px;
+    height: 60px;
+    background: navy;
+    border: 1px dashed white;
+    box-shadow: 0 0 20px deepskyblue;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px 
+}
+
+h1{
+    font-size: 50px;
+}
+
+#mes{
+    background: navy;
+    width: 300px;
+    margin: auto;
+    box-shadow: 0 0 20px deepskyblue;
+    color: aqua;
+    margin-bottom: 20px;
+}
+
+#fecha{
+    margin:auto;
+    width: 250px;
+    height: 60px;
+    background: navy;
+    border: 1px dashed white;
+    box-shadow: 0 0 20px deepskyblue;
+    font-size: 15px;
+    margin-bottom: 30px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px
+}
+
+
+
+ a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px ridge whitesmoke;
+    font-size: 14px;
+}
+a:hover{
+    box-shadow: 0 0 5px magenta;
+    border:1px solid black;
+    background: skyblue;
+    color: black;
+    transform: scale(1.2);
+
+}
