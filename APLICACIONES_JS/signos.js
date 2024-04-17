@@ -3,19 +3,28 @@ var mes=document.querySelector("#mes");
 var fecha=document.querySelector("#fecha");
 var sig=document.querySelector("#signo");
 
-sig.style.borderRadius=10+"%";
+sig.style.borderRadius=50+"%";
 sig.style.boxShadox="0px 0px 20px deepskyblue";
+
+
 
 input.oninput=()=>{
 let n=parseInt(input.value);
 document.querySelector("#vdia").innerHTML=n;
    
 
+sig.style.transform="rotateY (-180deg)";
+sig.style.transition="all 0.5s linear";
+sig.style.transitionStyle="preserve-3d";
+sig.style.backfaceVisibility="hidden";
+setTimeout(()=>{
+    sig.style.transform="rotateY (0deg)";
+    sig.style.transition="all 0.5s linear";
 
-sig.innerHTML="<img src='SPINNER/spinner1.gif' width=300px> ";
-fecha.innerHTML="<img src='SPINNER/spinner1.gif' width=30px> ";
 
-    setTimeout(()=>{
+}, 2000);
+
+
 
    m=mes.value;
 d=input.value;
@@ -23,7 +32,6 @@ d=input.value;
        
         document.querySelector("#fecha").innerHTML="ARIES "+ "("+(mes.value) + "-" + (dia.value)+ ")";
         sig.innerHTML="<img src='SIGNOSimg/A.jpg' width=300px > ";
-
         
     } else if ((m=== "ABRIL" && d >= 20) || (m === "MAYO" && d <= 20)) {
        
@@ -91,11 +99,18 @@ d=input.value;
 
     }
 
-    
+    sig.style.transform="rotateY(-180deg)";
+    sig.style.transition="all 0.5s linear";
+    sig.style.transitionStyle="preserve-3d";
+    sig.style.backfaceVisibility="hidden";
+        
+        setTimeout(() => {
+            sig.style.transform="rotate(0deg)"
+            sig.style.transform="all 0.5s linear";
+        }, 350);
 
     
 
-  }, 2000);
 }
 
 
@@ -106,9 +121,7 @@ mes.onchange=()=>{
 
 
 
-    sig.innerHTML="<img src='SPINNER/spinner1.gif' width=300px> ";
-    fecha.innerHTML="<img src='SPINNER/spinner1.gif' width=30px> ";
-    setTimeout(()=>{
+   
 
    m=mes.value;
 d=input.value;
@@ -183,7 +196,15 @@ if ((m === "MARZO" && d >= 21) || (m === "ABRIL" && d <= 19)) {
    sig.innerHTML="<img src='SIGNOSimg/SIG.jpg' width=300px> ";
 
 }
-
-  }, 2000);
+sig.style.transform="rotateY(-180deg)";
+sig.style.transition="all 0.5s linear";
+sig.style.transitionStyle="preserve-3d";
+sig.style.backfaceVisibility="hidden";
+    
+    setTimeout(() => {
+        sig.style.transform="rotate(0deg)"
+        sig.style.transform="all 0.5s linear";
+    }, 350);
+ 
 
 }

@@ -4,75 +4,54 @@
     box-sizing: border-box;
     transition: 2s all ease;
  }
+ 
  body{
-    color:white;
-    margin: 0px;
-    padding: 0px;
-    background: url(SIGNOSimg/GX.jpg);
-    background-size: cover;
-    background-position: center;
-       font-family: Georgia ;
+ text-align: center;
+ background: rgb(0,101,255);
+background: linear-gradient(0deg, rgba(0,101,255,1) 0%, rgba(0,0,0,1) 100%);
+ color: white;
+ height: 100pc;
+ }
+ 
+  #fila{
+    background: blue;
+    width: 300px;
+    margin: auto;
+ }
+ #columna{
+background: blue;
+    width: 300px;
+    margin: auto;
+ }
+ 
+  #vfila{
+    margin:auto;
+    width: 90px;
+    height: 35px;
+    background: navy;
+    border: 1px dashed white;
+    box-shadow: 0 0 20px deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px 
+ }
+ 
+  #vcolumna{
+    margin:auto;
+    width: 90px;
+    height: 35px;
+    background: navy;
+    border: 1px dashed white;
+    box-shadow: 0 0 20px deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px 
  }
 
-#signo{
-    width: 300px;
-    height: 300px;
-    margin: auto; 
-    box-shadow: 0 0 0px white;
-    border-radius: 0%;
-
-}
 
 
-
-#dia{
-    background: navy;
-    width: 300px;
-    margin: auto;
-    box-shadow: 0 0 20px deepskyblue;
-}
-
-#vdia{
-    margin:auto;
-    width: 150px;
-    height: 60px;
-    background: navy;
-    border: 1px dashed white;
-    box-shadow: 0 0 20px deepskyblue;
-    font-size: 25px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:20px 
-}
-
-h1{
-    font-size: 50px;
-}
-
-#mes{
-    background: navy;
-    width: 300px;
-    margin: auto;
-    box-shadow: 0 0 20px deepskyblue;
-    color: aqua;
-    margin-bottom: 20px;
-}
-
-#fecha{
-    margin:auto;
-    width: 250px;
-    height: 60px;
-    background: navy;
-    border: 1px dashed white;
-    box-shadow: 0 0 20px deepskyblue;
-    font-size: 15px;
-    margin-bottom: 30px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top:10px
-}
 
 
 

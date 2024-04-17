@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s all ease;
+ }
+ 
+ body{
+ text-align: center;
+ background: darkblue;
+ color: white;
+ 
+ }
+
+ a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px ridge whitesmoke;
+    font-size: 14px;
+}
+a:hover{
+    box-shadow: 0 0 5px magenta;
+    border:1px solid black;
+    background: skyblue;
+    color: black;
+    transform: scale(1.2);
+
+}
