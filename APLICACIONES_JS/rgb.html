@@ -13,8 +13,8 @@
 <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.7/dist/sweetalert2.min.css" rel="stylesheet">
 
    <title>CHICHARRONERA 405</title>
-      <link rel="stylesheet" href="../boostrapH/css/bootstrap.min.css">
-   <link rel="stylesheet" href="chicharronera.css">
+   <link rel="stylesheet" href="../boostrapH/css/bootstrap.min.css">
+   <link rel="stylesheet" href="rgb.css">
 </head>
 
 <body class="text-center">
@@ -23,43 +23,41 @@
     <nav class="navbar bg-primary" data-bs-theme="dark">  
         <div class="container-fluid text-center">
             <a href="index.html">MENU PRINCIPAL</a><br>
-        <h1 class="navbar-brand m-auto">LA CHICHARRONERA</h1>
+        <h1 class="navbar-brand m-auto">RGB</h1>
         <h1 class="navbar-brand m-auto">JOSHUA YERAY B.G</h1> 
     </div>
     </nav>
-    
-    
    
-      <img id="img" src="IMGC/E.jpeg" alt="">
   
     <br>
-    <h1>VALOR DE A</h1>
-<input type="range" min="-20" max="20" value="0" id="n1" class="form-control">
-<div id="vn1">0</div>
+    <h1>ROJO</h1>
+<input type="range" min="0" max="255" value="0" id="rojo" class="form-control">
+<div id="vrojo">0</div>
 
 <br>
 
-<h1>VALOR DE B</h1>
-<input type="range" min="-20" max="20" value="0" id="n2" class="form-control">
-<div id="vn2">0</div>
+<h1>VERDE</h1>
+<input type="range" min="0" max="255" value="0" id="verde" class="form-control">
+<div id="vverde">0</div>
 
 <br>
 
-<h1>VALOR DE C</h1>
-<input type="range" min="-20" max="20" value="0" id="n3" class="form-control">
-<div id="vn3">0</div>
+<h1>AZUL</h1>
+<input type="range" min="0" max="255" value="0" id="azul" class="form-control">
+<div id="vazul">0</div>
 
 <br>
 
-<h1>ECUACION</h1>
-<div id="ecuacion"></div>
+
+<div id="rgb"></div>
+<div id="exa"></div>
 
 
-<h1>RESULTADO</h1>
+
 <div id="resultado"></div>
 
 
-<script src="chicharronera.js"></script>
+<script src="rgb.js"></script>
 </body>
 
 </html>

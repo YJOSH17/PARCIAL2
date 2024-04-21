@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: 2s all ease;
+ }
+ 
+ body{
+ text-align: center;
+ height: 100pc;
+ background: rgb(0,101,255);
+background: linear-gradient(0deg, rgba(0,101,255,1) 0%, rgba(0,0,0,1) 100%);
+ color: white;
+ font-family: Georgia ;
+
+ }
+
+ 
+ 
+  #rojo{
+    background: red;
+    width: 300px;
+    margin: auto;
+ }
+ 
+ #verde{
+    background: limegreen;
+    width: 300px;
+    margin: auto;
+ }
+ 
+ #azul{
+    background: dodgerblue;
+    width: 300px;
+    margin: auto;
+ }
+
+  #vn1,#vn2,#vn3{
+    margin:auto;
+    width: 90px;
+    height: 35px;
+    background: navy;
+    border: 1px dashed white;
+    box-shadow: 0 0 20px deepskyblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:10px 
+ }
+
+ #resultado{
+    margin:auto;
+    width: 300px;
+    height: 300px;
+    background: black;
+    border: 2px solid deepskyblue;
+    box-shadow: 0 0 20px whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px 
+ }
+ 
+  #exa,#rgb{
+    color: white;
+    margin:auto;
+    width: 300px;
+    height: 60px;
+    background: black;
+    border: 3px dashed deepskyblue;
+    box-shadow: 0 0 20px whitesmoke;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:20px 
+    
+ }
+
+ a{
+    display: block;
+    color: azure;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    margin: 10px auto;
+    background: navy;
+    border-radius: 10px;
+    padding: 10px;
+    border:1px ridge whitesmoke;
+    font-size: 14px;
+}
+a:hover{
+    box-shadow: 0 0 5px magenta;
+    border:1px solid black;
+    background: skyblue;
+    color: black;
+    transform: scale(1.2);
+
+}
