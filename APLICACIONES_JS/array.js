@@ -20,7 +20,7 @@ splice.onclick=async()=>{
                 return "Ingresa valor valido!";
             }
         }
-    });
+    });//guarda desde que pocision se va a eliminar n numeros
 
     const {value: n} = await Swal.fire({
 
@@ -34,7 +34,7 @@ splice.onclick=async()=>{
             }
         }
 
-    });
+    });//se encarga de eliminar n numeros dependiendo la posicion seleccionada
 
     try {
         miarray.splice(pos,n);
@@ -46,7 +46,7 @@ splice.onclick=async()=>{
             icon: "error"
         });
     }
-}
+}//busca y elimina el numero dependiendo la posicion 
 
 
 index.onclick=()=>{
@@ -56,7 +56,7 @@ index.onclick=()=>{
         text: "Posición:"+pos,
         icon: "success"
     });
-}
+}//busca y manda la posicion de un valor
 
 unshift.onclick=()=>{
     let n=parseInt(valor.value);
