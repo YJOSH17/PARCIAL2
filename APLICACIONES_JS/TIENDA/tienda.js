@@ -15,7 +15,7 @@ var total=0;
 const cargarProductos=()=>{
     let optionProductos="";
     productos.forEach((producto)=>{
-        optionProductos+=`<option value="${producto}">${producto.toUpperCase()}</option>`;
+        optionProductos+=`<option value= "${producto}">${producto.toUpperCase()}</option>`;
     })
     selectProductos.innerHTML=optionProductos;
     cargarPrecio();
@@ -143,10 +143,82 @@ const pagar = (total) => {
       let cambio = pago - total;
 
       if (cambio >= 0) {
-        Swal.fire('Tu cambio es: $' + cambio.toFixed(2));
+        Swal.fire("Tu cambio es: $" + cambio.toFixed(2)," ","success");
+        limpiarTabla();
       } else {
-        Swal.fire('Ingresa una cantidad mayor con la que vas a pagar');
+        Swal.fire("Ingresa una cantidad mayor con la que vas a pagar","","error");
       }
     }
   });
+}
+
+const verProductos = () => {
+
+  let total=0;
+    let divListaProductos=document.getElementById("listaProductos");
+    let tablaHTML=`<table class="table w-100 m-auto table-striped table-primary table-bordered border-primary">
+        <tr>
+        <td><h2>PRODUCTO</h2></td>
+        <td><h2>PRECIO</h2></td>
+        <td><h2>ELIMINAR</h2></td>
+      
+        </tr>
+        `;
+        let index=0;
+        productos.forEach(item=>{
+            tablaHTML+=`
+            <tr>
+            <td>${item}</td>
+            <td>$ ${precios[index]}.00</td>
+          
+ <td><button class="btn btn-danger" onclick="eliminarCarrito2(${index})"><i class="bi bi-trash m-2"></i> DEL</button></td> 
+            </tr>
+            `
+            index++;
+            total+=(precios[item[0]]*item[1]);
+            
+ 
+            
+            
+    })
+    
+    divListaProductos.innerHTML=tablaHTML;
+}
+
+const addProductos =()=>{
+  let nombre = document.getElementById("nombreProducto").value;
+  let precio = document.getElementById("pProducto").value;
+  productos.push(nombre);
+  precios.push(precio);
+  verProductos();
+  cargarProductos();
+
+  document.getElementById("nombreProducto").value="";
+  document.getElementById("pProducto").value="";
+}
+
+
+const eliminarCarrito2= (index) =>{
+  let divListaProductos = document.getElementById("listaProductos");
+  Swal.fire({
+  title: "Deseas eliminar este producto?",
+  showDenyButton: true,
+  showCancelButton: false,
+  confirmButtonText: "Si",
+  denyButtonText: "No"
+}).then((result) => {
+
+  if (result.isConfirmed) {
+    Swal.fire("Se elimino el producto exitosamente", "", "success");
+    productos.splice(index,1);
+    precios.splice(index,1);
+    verProductos();
+    cargarProductos();
+  }
+});
+}
+
+const limpiarTabla=()=>{
+  carrito=[];
+  document.getElementById("carrito").innerHTML="";
 }
